@@ -242,30 +242,7 @@
                     <em>Los campos con un asterisco (*) son requeridos.</em>
                 </div>
                 <div class="w-form">
-                    <form class="form" validate-form>
-                        <div class="contact-form-grid">
-                            <div id="w-node-ff47f11b-2f57-f8e2-1691-2738c35889aa-e91f2257">
-                                <label for="First-Name" id="contact-first-name">Nombre *</label>
-                                <input type="text" class="w-input caja input1" maxlength="256" name="nombre" data-name="First Name" id="First-Name" required>
-                            </div>
-                            
-                            <div id="w-node-ff47f11b-2f57-f8e2-1691-2738c35889b2-e91f2257">
-                                <label for="Email" id="contact-email">e-mail *</label>
-                                <input type="email" class="w-input caja input1" maxlength="256" name="correo"  required>
-                            </div>
-                            <div id="w-node-ff47f11b-2f57-f8e2-1691-2738c35889b6-e91f2257">
-                                <label for="Contact-Phone-Number" id="contact-phone" >Telefóno/movil</label>
-                                <input type="tel" class="w-input caja input1" maxlength="256" name="telefono"  >
-                            </div>
-                            <div id="w-node-ff47f11b-2f57-f8e2-1691-2738c35889ba-e91f2257">
-                                <label for="Message" id="contact-message">Mensaje *</label>
-                                <textarea  maxlength="5000"  name="mensaje" class="w-input caja2 input1" required>
-
-                                </textarea>
-                            </div>
-                        </div>
-                        <input type="submit" value="Enviar" data-wait="Please wait..." class="submit-button w-button">
-                    </form>
+                    
 
                     </div>
                 </div>
@@ -274,36 +251,7 @@
                 <p>2021 ©  Korah Studio</p>
             </div>
         </section>
-        <script>
-        $('.contact1-form').on('submit',function(e){
-            //optional validation code here
       
-            e.preventDefault();
-          
-            $.ajax({
-                url: "https://script.google.com/macros/d/1QlytVd1pav-9F-3LhKakvUS_jXK_b7gTyJPZbaAc5DpAHFw38xz8t3Ff",
-                method: "POST",
-                dataType: "json",
-                data: $(".contact1-form").serialize(),
-                success: function(response) {
-                    
-                    if(response.result == "success") {
-                        $('.contact1-form')[0].reset();
-                        alert('Thank you for contacting us.');
-                        return true;
-                    }
-                    else {
-                        alert("Something went wrong. Please try again.")
-                    }
-                },
-                error: function() {
-                    
-                    alert("Something went wrong. Please try again.")
-                }
-            })
-        });
-    </script>
-
         <script src="k434_files/jquery-3.js" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
         </script>
         
@@ -312,5 +260,6 @@
         <script src="js/snap.svg-min.js"></script>
         <script src="js/main.js"></script> <!-- Resource jQuery -->
         <script src="js/script.js"></script>
+	<script src="https://kwesforms.com/v2/kwes-script.js" defer></script> 
 </body>
 </html>
