@@ -223,7 +223,7 @@
     transition: left 0.2s ease;
   }
   .flecha{
-    background-image: url(/korahstudio-main/img/link.svg);
+    background-image: url(/img/link.svg);
 background-position: center right;
 background-repeat: no-repeat;
 background-size: 0.857em;
