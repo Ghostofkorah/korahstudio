@@ -229,3 +229,15 @@ background-repeat: no-repeat;
 background-size: 0.857em;
 padding-right: 1em;
   }
+
+@media screen and (max-width:480px){
+
+.title{
+  margin: 0 auto 15px;
+max-width: 90vw;
+font: 300 25px/1.2 "Oswald", sans-serif;
+letter-spacing: 0.35em;
+text-transform: uppercase;
+}
+
+}
