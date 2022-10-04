@@ -42,6 +42,13 @@
       <a href="#" data-scroll-nav="2">Servicios</a>
       <a href="#" data-scroll-nav="3">Contacto</a>      
    </div>
+<!-- slider servicios -->
+<link rel="stylesheet" href="css/slider-services.css">
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7549a40147ccd0ba0a6b5373d87e770e49bb4689f1c2dc30cccc7463f207f997.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-5e03f34e38152f20eb79c96b0b89c2d99c5085e9ae9386dc71e2f0b3c30bf513.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+ 
+<!-- slider servicios -->
 
 </head>
 <body class="body-2">
@@ -174,52 +181,98 @@
         <div class="contenedor3 w-container" data-scroll-index="2">
             <div class="sectionservices wf-section">
                 <h1 class="servicios">SERVICIOS</h1>
-                <div class="w-layout-grid grid-2">
-                    <div class="text-block-12">RENDERIZADO FOTOREALISTA</div>
-                    <p class="paragraph-4">Con materiales PBR (Phisical Based Rendering) y objetos con proporciones y detalle minucioso y una buena composición <br>logramos conseguir gran calidad &nbsp;de imagen estética y realista</p>
-                    <img src="img/v6.jpg" loading="lazy"   alt="" class="image-4">
+                <div>
+                    <main class="main-content">
+                        <section class="slideshow">
+                          <div class="slideshow-inner">
+                            <div class="slides">
+                              <div class="slide is-loaded is-active">
+                                <div class="slide-content">
+                                  <div class="caption">
+                                    <div class="title">Modelado y Renderizado 3D</div>
+                                    <div class="text">
+                                      <p>Desde modelado 3D de productos hasta elementos arquitectónicos </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="image-container" style="">
+                                  <img src="/img/modelado.jpg" alt="" class="image">
+                                </div>
+                              </div>
+                              <div class="slide is-loaded " style="right: 0px;">
+                                <div class="slide-content" style="right: 0px;">
+                                  <div class="caption">
+                                    <div class="title" style="">Animación</div>
+                                    <div class="text" style="">
+                                      <p>Recorridos virtuales, videos y animaciones</p>
+                                    </div>
+                                    <a href="https://youtu.be/fe05YirFsEo" class="btn" style="" target="_blank">
+                                      <span class="btn-inner flecha">Ver Video </span> 
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="image-container" style="">
+                    
+                                    <video width="600" height="400" autoplay loop class="image">
+                                        <source src="/img/video.mp4" type="video/mp4">
+                                    </video>
+                                    <img  alt="" class="image">
+                                </div>
+                              </div>
+                              <div class="slide is-loaded" style="right: 0px;">
+                                <div class="slide-content" style="right: 0px;">
+                                  <div class="caption">
+                                    <div class="title" style="">Edición y Color</div>
+                                    <div class="text" style="">
+                                      <p>Fotomontaje, edicion de video y efectos especiales</p>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                                <div class="image-container" style="">
+                                    <video width="600" height="400" autoplay loop class="image">
+                                        <source src="/img/video02.mp4" type="video/mp4">
+                                    </video>
+                                    <img  alt="" class="image">
+                                </div>
+                              </div>
+                             
+                            </div>
+                            <div class="pagination">
+                              <div class="item is-active">
+                                <span class="icon">1</span>
+                              </div>
+                              <div class="item">
+                                <span class="icon">2</span>
+                              </div>
+                              <div class="item">
+                                <span class="icon">3</span>
+                              </div>
+                              
+                            </div>
+                            <div class="arrows">
+                              <div class="arrow prev">
+                                <span class="svg svg-arrow-left">
+                                  <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                                    <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"></path>
+                                  </svg>
+                                  <span class="alt sr-only"></span>
+                                </span>
+                              </div>
+                              <div class="arrow next">
+                                <span class="svg svg-arrow-right">
+                                  <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                                    <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"></path>
+                                  </svg>
+                                  <span class="alt sr-only"></span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </main>
                 </div>
-                <div class="w-layout-grid grid-2">
-                    <div class="text-block-13">ANIMACIÓN</div>
-                    <p class="paragraph-3">Animación de producto y recorridos dentro de espacios, parallax y renders 360</p>
-                    <img src="img/silla.gif" loading="lazy"  alt="" class="image-5">
-                </div>
-                <div class="w-layout-grid grid-2">
-                    <div class="text-block-14">EDICIÓN</div>
-                    <p class="paragraph-5">Retoques fotográficos, fotomontajes y mattepainting</p>
-                    <img src="img/matte.jpg" loading="lazy" alt="" class="image-6">
-                </div>
             </div>
-            <div class="section-6 wf-section">
-                
-                <div class="text-block-7"><strong class="bold-text-2">Escena sensilla<br>Desde un render de producto<br>hasta una habitación<br>‍</strong>
-                </div>
-            </div>
-            <div class="sectionv2 wf-section">
-                <img src="img/small.png" loading="lazy" alt="" class="image-2">
-            </div>
-            <div class="sectionv2-1 wf-section">
-                <img src="img/medium.png" loading="lazy" alt="" class="image-2">
-            </div>
-            <div class="section-6 wf-section">
-                <div class="text-block-7-copy">
-                    <strong class="bold-text-2-copy">Escena mediana<br>Desde un area grande de interior con mucho detalle hasta la fachade de una vivienda</strong>
-                </div>
-               
-            </div>
-            <div class="sectionv2-2 wf-section"><img src="img/medium.png" loading="lazy" srcset="img/medium.png 500w, img/medium.png 800w, img/medium.png 1600w, img/medium.png 1920w" sizes="(max-width: 479px) 80vw, 100vw" alt="" class="image-2">
-            </div>
-            <div class="section-6 wf-section">
-                
-                <div class="text-block-7">
-                    <strong class="bold-text-2">Escena compleja<br>Abarca desde varias viviendas, edificios, parques y ciudades.</strong>
-                </div>
-            </div>
-            <div class="sectionv2 wf-section">
-                <img src="img/high.png" loading="lazy" alt="" class="image-2">
-            </div>
-        </div>
-        <div data-scroll-index="3">
             
         </div>
         <section id="contact-form" class="contact-form wf-section" data-scroll-index="3">
@@ -262,5 +315,8 @@
         <script src="js/main.js"></script> <!-- Resource jQuery -->
         <script src="js/script.js"></script>
 	<script src="https://kwesforms.com/v2/kwes-script.js" defer></script> 
+    <script src="js/TweenMax.min.js"></script>
+   
+    <script src="js/slider-korah.js" crossorigin=""></script>
 </body>
 </html>
