@@ -2630,5 +2630,7 @@ html{
       width: 30vw;
       margin: auto;
   }
-  
+   .team a{
+    color: #e1e1e1;
+  }
 
