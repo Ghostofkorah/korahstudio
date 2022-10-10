@@ -586,6 +586,7 @@ label{
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+	backgroun-color:#D1D1D1;
 }
 
 .list {
