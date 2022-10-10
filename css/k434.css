@@ -2414,3 +2414,221 @@ html{
   height: 100%;
   overflow: hidden;
 }
+
+
+.contenedor-contacto{
+
+    min-height: 300px;
+    color: rgb(199, 199, 199);
+
+    background-color: rgb(78, 78, 78);
+    padding-left: 20vw;
+    
+  }
+  .container-contacto{
+      margin-top: 50px;
+  }
+  .footer-section {
+    padding-top: 50px;
+   
+  }
+  
+  
+  .copyright-area{
+    text-align: center;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    
+    font-size: 14px;
+    color: #c0c0c0;
+  }
+ 
+ 
+  .footer-menu li {
+    display: inline-block;
+    margin:auto;
+  }
+ 
+  .footer-menu li a {
+    font-size: 45px;
+    color: #878787;
+  }
+  
+  .footer-menu ul{
+      text-align: center;
+      padding: 0px;
+  
+  }
+  
+
+
+
+  .facebook{
+    width: 45px;
+    height: 45px;
+    -webkit-mask: url(/images/facebook-f-brands.svg) no-repeat 50% 50%;
+    mask: url(/images/facebook-f-brands.svg) no-repeat 50% 50%;
+    -webkit-mask-size: contain;
+  
+    mask-size: contain;
+    background-color: #878787; 
+  }
+  .facebook:hover{
+    background-color:#e2e2e2;
+  }
+  .instagram{
+    width: 45px;
+    height: 45px;
+    -webkit-mask: url(/images/instagram-brands.svg) no-repeat 50% 50%;
+    mask: url(/images/instagram-brands.svg) no-repeat 50% 50%;
+    -webkit-mask-size: contain;
+  
+    mask-size: contain;
+    background-color: #878787; 
+  }
+  .instagram:hover{
+    background-color:#e2e2e2;
+  }
+  .youtube{
+    width: 45px;
+    height: 45px;
+    -webkit-mask: url(/images/youtube-brands.svg) no-repeat 50% 50%;
+    mask: url(/images/youtube-brands.svg) no-repeat 50% 50%;
+    -webkit-mask-size: contain;
+  
+    mask-size: contain;
+    background-color: #878787; 
+  }
+  .youtube:hover{
+    background-color:#e2e2e2;
+  }
+  
+  
+  .wrapper-contacto{
+    margin-top: 50px;
+  }
+  
+  .wrapper-contacto h1{
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .team .team_member{
+  
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: #878787;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+  
+  
+  
+  }
+  
+  .team .team_member .team_img img{
+    width: 48px;
+    height: 48px;
+  
+  }
+  .team_img{
+      width: 48px;
+    height: 48px;
+    
+  }
+  
+
+.icon-whatsapp{
+    display: block;
+
+    width: 45px;
+  height: 45px;
+  -webkit-mask: url(/images/whatsapp-brands.svg) no-repeat 50% 50%;
+  mask: url(/images/whatsapp-brands.svg) no-repeat 50% 50%;
+  -webkit-mask-size: contain;
+
+  mask-size: contain;
+  background-size: 100%;
+  background-color: #e2e2e2; 
+  background-position-x: center;
+
+  z-index: 1000;
+}
+.icon-email{
+    display: block;
+
+    width: 45px;
+  height: 45px;
+  -webkit-mask: url(/images/envelope-solid.svg) no-repeat 50% 50%;
+  mask: url(/images/envelope-solid.svg) no-repeat 50% 50%;
+  -webkit-mask-size: contain;
+
+  mask-size: contain;
+  background-size: 100%;
+  background-color: #e2e2e2; 
+  background-position-x: center;
+
+  z-index: 1000;
+}
+
+
+.fab,
+.fas {
+  margin: 2px 3px;
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Regular', 'Font Awesome 5 Brands', 'Arial';
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+
+
+
+
+
+.a-icon li{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .footer-menu h2{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+ 
+  .logo-footer{
+      width: 30vw;
+      margin: auto;
+  }
+  
+
