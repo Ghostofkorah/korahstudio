@@ -2634,4 +2634,9 @@ html{
    .team a{
     color: #e1e1e1;
   }
+@media screen and (max-width: 479px) { 
+.contenedor-contacto{
+	padding-left:0;	
+	}
+}
 
