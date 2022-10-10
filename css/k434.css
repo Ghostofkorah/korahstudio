@@ -2468,7 +2468,7 @@ html{
     width: 45px;
     height: 45px;
     -webkit-mask: url(/img/facebook-f-brands.svg) no-repeat 50% 50%;
-    mask: url(/images/facebook-f-brands.svg) no-repeat 50% 50%;
+    mask: url(/img/facebook-f-brands.svg) no-repeat 50% 50%;
     -webkit-mask-size: contain;
   
     mask-size: contain;
@@ -2481,7 +2481,7 @@ html{
     width: 45px;
     height: 45px;
     -webkit-mask: url(/img/instagram-brands.svg) no-repeat 50% 50%;
-    mask: url(/images/instagram-brands.svg) no-repeat 50% 50%;
+    mask: url(/img/instagram-brands.svg) no-repeat 50% 50%;
     -webkit-mask-size: contain;
   
     mask-size: contain;
@@ -2494,7 +2494,7 @@ html{
     width: 45px;
     height: 45px;
     -webkit-mask: url(/img/youtube-brands.svg) no-repeat 50% 50%;
-    mask: url(/images/youtube-brands.svg) no-repeat 50% 50%;
+    mask: url(/img/youtube-brands.svg) no-repeat 50% 50%;
     -webkit-mask-size: contain;
   
     mask-size: contain;
@@ -2575,7 +2575,7 @@ html{
     width: 45px;
   height: 45px;
   -webkit-mask: url(/img/whatsapp-brands.svg) no-repeat 50% 50%;
-  mask: url(/images/whatsapp-brands.svg) no-repeat 50% 50%;
+  mask: url(/img/whatsapp-brands.svg) no-repeat 50% 50%;
   -webkit-mask-size: contain;
 
   mask-size: contain;
@@ -2591,7 +2591,7 @@ html{
     width: 45px;
   height: 45px;
   -webkit-mask: url(/img/envelope-solid.svg) no-repeat 50% 50%;
-  mask: url(/images/envelope-solid.svg) no-repeat 50% 50%;
+  mask: url(/img/envelope-solid.svg) no-repeat 50% 50%;
   -webkit-mask-size: contain;
 
   mask-size: contain;
